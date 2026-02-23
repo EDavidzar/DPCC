@@ -13,6 +13,6 @@ It uses a MYSQL/MARIADB database server into which the data necessary for compli
 2. PROGRAMMING LANGUAGE AND OPERATING ENVIRONMENT
 It has been developed in the Java programming language and can be run on any operating system/environment on which Java Runtime Environment (JRE) can be installed, is installed, and is configured. Minimum version 17.0 of Java Runtime Environment (JRE)
 Manual del programa ...
-[Manual](https://github.com/EDavidzar/DPCC/blob/main/SEOVAN-manual.pdf)
+[Manual](https://github.com/EDavidzar/DPCC/blob/main/CCPD8-manual.pdf)
 
 ****
