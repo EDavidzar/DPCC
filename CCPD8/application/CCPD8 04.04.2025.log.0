@@ -1,0 +1,400 @@
+abr 04, 2025 11:02:13 A. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.. Estado 08S01
+abr 04, 2025 11:02:41 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al configurar la la conexión de MySQL:.Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+abr 04, 2025 11:02:41 A. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.sql.SQLException.getErrorCode()" because "ex" is null
+	at beleris.es.finaldbmanager.FDBMan.ShowSQLExceptionError(FDBMan.java:2390)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_CloseConn(FDBMan.java:1558)
+	at beleris.es.finaldbmanager.FDBMan.SetupConnection(FDBMan.java:1549)
+	at beleris.es.finaldbmanager.FDBMan.MySql_DSPoolInitSimple(FDBMan.java:1506)
+	at beleris.es.finaldbmanager.FDBMan.<init>(FDBMan.java:61)
+	at ccpd.es.p8dialogs.AuthenticationDialog.CheckAuthentication(AuthenticationDialog.java:238)
+	at ccpd.es.p8dialogs.AuthenticationDialog.jBOKActionPerformed(AuthenticationDialog.java:171)
+	at ccpd.es.p8dialogs.AuthenticationDialog$2.actionPerformed(AuthenticationDialog.java:152)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:191)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:236)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:234)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:234)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1080)
+	at java.desktop/java.awt.Component.show(Component.java:1728)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1675)
+	at java.desktop/java.awt.Window.setVisible(Window.java:1036)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1016)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.AuthenticateUserProcedure(PrincipalWindowTopComponent.java:354)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.componentOpened(PrincipalWindowTopComponent.java:325)
+	at org.openide.windows.WindowManager.componentOpenNotify(WindowManager.java:282)
+	at org.netbeans.core.windows.WindowManagerImpl.notifyTopComponentOpened(WindowManagerImpl.java:1192)
+	at org.netbeans.core.windows.Central.insertModeOpenedTopComponent(Central.java:816)
+	at org.netbeans.core.windows.ModeImpl.addOpenedTopComponent(ModeImpl.java:344)
+	at org.netbeans.core.windows.LazyLoader.loadNow(LazyLoader.java:139)
+	at org.netbeans.core.windows.LazyLoader.access$400(LazyLoader.java:39)
+	at org.netbeans.core.windows.LazyLoader$2.run(LazyLoader.java:106)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:741)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+abr 04, 2025 11:02:45 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+abr 04, 2025 12:00:11 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+abr 04, 2025 12:00:12 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name
+from information_schema.columns
+where table...' at line 2. Estado 42000
+abr 04, 2025 12:00:49 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al actualizar datos fichero en la tabla use ccpd_operations;
+select column_name as column_name
+from information_schema.columns
+where table_name = 'clients_operations' -- put table name here
+order by ordinal_position;.You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name
+from information_schema.columns
+where table...' at line 2
+abr 04, 2025 12:00:49 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.sql.SQLException.getErrorCode()" because "ex" is null
+	at beleris.es.finaldbmanager.FDBMan.ShowSQLExceptionError(FDBMan.java:2390)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_CloseConn(FDBMan.java:1558)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_ExecuteQueryTableDBWithOptions(FDBMan.java:1811)
+	at beleris.es.finaldbmanager.FDBMan.ExecuteQueryTableDBWithOptions(FDBMan.java:1765)
+	at beleris.es.finaldbmanager.FDBMan.MYSQL_GetColumnsName(FDBMan.java:1842)
+	at ccpd.es.p8panels.Panel_TableDBManager.LoadList(Panel_TableDBManager.java:188)
+	at ccpd.es.p8panels.Panel_TableDBManager.<init>(Panel_TableDBManager.java:33)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.jBClientOperationsActionPerformed(PrincipalWindowTopComponent.java:274)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent$1.actionPerformed(PrincipalWindowTopComponent.java:114)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+abr 04, 2025 12:04:33 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+abr 04, 2025 12:04:34 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name
+from information_schema.columns
+where table...' at line 2. Estado 42000
+abr 04, 2025 12:05:00 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al actualizar datos fichero en la tabla use ccpd_operations;
+select column_name as column_name
+from information_schema.columns
+where table_name = clients_operationsorder by ordinal_position;.You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name
+from information_schema.columns
+where table...' at line 2
+abr 04, 2025 12:05:00 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.sql.SQLException.getErrorCode()" because "ex" is null
+	at beleris.es.finaldbmanager.FDBMan.ShowSQLExceptionError(FDBMan.java:2390)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_CloseConn(FDBMan.java:1558)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_ExecuteQueryTableDBWithOptions(FDBMan.java:1811)
+	at beleris.es.finaldbmanager.FDBMan.ExecuteQueryTableDBWithOptions(FDBMan.java:1765)
+	at beleris.es.finaldbmanager.FDBMan.MYSQL_GetColumnsName(FDBMan.java:1842)
+	at ccpd.es.p8panels.Panel_TableDBManager.LoadList(Panel_TableDBManager.java:188)
+	at ccpd.es.p8panels.Panel_TableDBManager.<init>(Panel_TableDBManager.java:33)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.jBClientOperationsActionPerformed(PrincipalWindowTopComponent.java:273)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent$1.actionPerformed(PrincipalWindowTopComponent.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+abr 04, 2025 12:06:14 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+abr 04, 2025 12:06:15 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name
+from information_schema.columns
+where table...' at line 2. Estado 42000
+abr 04, 2025 12:06:32 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al actualizar datos fichero en la tabla use ccpd_operations;
+select column_name as column_name
+from information_schema.columns
+where table_name = clients_operations 
+order by ordinal_position;.You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name
+from information_schema.columns
+where table...' at line 2
+abr 04, 2025 12:06:32 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.sql.SQLException.getErrorCode()" because "ex" is null
+	at beleris.es.finaldbmanager.FDBMan.ShowSQLExceptionError(FDBMan.java:2390)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_CloseConn(FDBMan.java:1558)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_ExecuteQueryTableDBWithOptions(FDBMan.java:1811)
+	at beleris.es.finaldbmanager.FDBMan.ExecuteQueryTableDBWithOptions(FDBMan.java:1765)
+	at beleris.es.finaldbmanager.FDBMan.MYSQL_GetColumnsName(FDBMan.java:1842)
+	at ccpd.es.p8panels.Panel_TableDBManager.LoadList(Panel_TableDBManager.java:188)
+	at ccpd.es.p8panels.Panel_TableDBManager.<init>(Panel_TableDBManager.java:33)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.jBClientOperationsActionPerformed(PrincipalWindowTopComponent.java:273)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent$1.actionPerformed(PrincipalWindowTopComponent.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+abr 04, 2025 12:06:39 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+abr 04, 2025 12:09:51 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+abr 04, 2025 12:09:52 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name 
+from information_schema.columns 
+where tab...' at line 2. Estado 42000
+abr 04, 2025 12:10:13 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al actualizar datos fichero en la tabla use ccpd_operations; 
+select column_name as column_name 
+from information_schema.columns 
+where table_name = 'clients_operations' 
+order by ordinal_position;.You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name 
+from information_schema.columns 
+where tab...' at line 2
+abr 04, 2025 12:10:13 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.sql.SQLException.getErrorCode()" because "ex" is null
+	at beleris.es.finaldbmanager.FDBMan.ShowSQLExceptionError(FDBMan.java:2390)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_CloseConn(FDBMan.java:1558)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_ExecuteQueryTableDBWithOptions(FDBMan.java:1811)
+	at beleris.es.finaldbmanager.FDBMan.ExecuteQueryTableDBWithOptions(FDBMan.java:1765)
+	at beleris.es.finaldbmanager.FDBMan.MYSQL_GetColumnsName(FDBMan.java:1842)
+	at ccpd.es.p8panels.Panel_TableDBManager.LoadList(Panel_TableDBManager.java:188)
+	at ccpd.es.p8panels.Panel_TableDBManager.<init>(Panel_TableDBManager.java:33)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.jBClientOperationsActionPerformed(PrincipalWindowTopComponent.java:273)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent$1.actionPerformed(PrincipalWindowTopComponent.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+abr 04, 2025 12:10:22 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+abr 04, 2025 12:11:49 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+abr 04, 2025 12:13:27 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+abr 04, 2025 12:13:29 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name from information_schema.columns where table...' at line 1. Estado 42000
+abr 04, 2025 12:13:43 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al actualizar datos fichero en la tabla use ccpd_operations; select column_name as column_name from information_schema.columns where table_name = 'clients_operations' order by ordinal_position;.You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select column_name as column_name from information_schema.columns where table...' at line 1
+abr 04, 2025 12:13:43 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.sql.SQLException.getErrorCode()" because "ex" is null
+	at beleris.es.finaldbmanager.FDBMan.ShowSQLExceptionError(FDBMan.java:2390)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_CloseConn(FDBMan.java:1558)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_ExecuteQueryTableDBWithOptions(FDBMan.java:1811)
+	at beleris.es.finaldbmanager.FDBMan.ExecuteQueryTableDBWithOptions(FDBMan.java:1765)
+	at beleris.es.finaldbmanager.FDBMan.MYSQL_GetColumnsName(FDBMan.java:1842)
+	at ccpd.es.p8panels.Panel_TableDBManager.LoadList(Panel_TableDBManager.java:188)
+	at ccpd.es.p8panels.Panel_TableDBManager.<init>(Panel_TableDBManager.java:33)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.jBClientOperationsActionPerformed(PrincipalWindowTopComponent.java:273)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent$1.actionPerformed(PrincipalWindowTopComponent.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+

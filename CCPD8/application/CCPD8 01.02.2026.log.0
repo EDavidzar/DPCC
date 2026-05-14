@@ -1,0 +1,134 @@
+feb 01, 2026 6:26:50 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+feb 01, 2026 6:26:51 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+feb 01, 2026 6:26:52 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+feb 01, 2026 6:27:18 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+feb 01, 2026 6:29:09 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+feb 01, 2026 6:29:10 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+feb 01, 2026 6:29:10 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+feb 01, 2026 6:29:40 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+feb 01, 2026 6:31:15 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+feb 01, 2026 6:31:17 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+feb 01, 2026 6:31:17 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+feb 01, 2026 6:31:31 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+feb 01, 2026 6:37:03 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+feb 01, 2026 6:37:04 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+feb 01, 2026 6:37:04 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+feb 01, 2026 6:37:14 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.IllegalArgumentException: Identifier not found
+	at java.desktop/javax.swing.table.DefaultTableColumnModel.getColumnIndex(DefaultTableColumnModel.java:283)
+	at java.desktop/javax.swing.JTable.getColumn(JTable.java:2605)
+	at ccpd.es.p8panels.JPSecurity_Measures.jBInOutexitorRecDataActionPerformed(JPSecurity_Measures.java:379)
+	at ccpd.es.p8panels.JPSecurity_Measures$3.actionPerformed(JPSecurity_Measures.java:104)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+feb 01, 2026 6:37:16 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.IllegalArgumentException: Identifier not found
+	at java.desktop/javax.swing.table.DefaultTableColumnModel.getColumnIndex(DefaultTableColumnModel.java:283)
+	at java.desktop/javax.swing.JTable.getColumn(JTable.java:2605)
+	at ccpd.es.p8panels.JPSecurity_Measures.jBInOutexitorRecDataActionPerformed(JPSecurity_Measures.java:379)
+	at ccpd.es.p8panels.JPSecurity_Measures$3.actionPerformed(JPSecurity_Measures.java:104)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+feb 01, 2026 6:40:47 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+feb 01, 2026 6:40:48 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+feb 01, 2026 6:40:48 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+feb 01, 2026 6:41:05 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+feb 01, 2026 6:44:42 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+feb 01, 2026 6:44:43 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+feb 01, 2026 6:44:44 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+feb 01, 2026 6:45:03 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?

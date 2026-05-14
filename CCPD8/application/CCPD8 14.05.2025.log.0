@@ -1,0 +1,235 @@
+may 14, 2025 9:47:59 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+may 14, 2025 9:48:00 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+may 14, 2025 9:48:01 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+may 14, 2025 9:48:33 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe dar de alta y seleccionar un cliente y una empresa para poder continuar ...
+may 14, 2025 9:48:39 A. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NoSuchMethodError: 'void ccpd.es.p8panels.PFillingReportQuestions.<init>(beleris.es.finalprimaryclasses.CL_Client)'
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.JBFillCompliantReportActionPerformed(PrincipalWindowTopComponent.java:484)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent$9.actionPerformed(PrincipalWindowTopComponent.java:267)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+may 14, 2025 9:48:42 A. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NoSuchMethodError: 'void ccpd.es.p8panels.PFillingReportQuestions.<init>(beleris.es.finalprimaryclasses.CL_Client)'
+	at ccpd.es.p8windows.PrincipalWindowTopComponent.JBFillCompliantReportActionPerformed(PrincipalWindowTopComponent.java:484)
+	at ccpd.es.p8windows.PrincipalWindowTopComponent$9.actionPerformed(PrincipalWindowTopComponent.java:267)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+may 14, 2025 9:49:03 A. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+may 14, 2025 9:57:34 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+may 14, 2025 9:57:34 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+may 14, 2025 9:57:35 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+may 14, 2025 9:58:06 A. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at ccpd.es.p8panels.PFillingReportQuestions.UpdateTableDB(PFillingReportQuestions.java:705)
+	at ccpd.es.p8panels.PFillingReportQuestions.SaveDBResponse(PFillingReportQuestions.java:742)
+	at ccpd.es.p8panels.PFillingReportQuestions.jBExitProgramActionPerformed(PFillingReportQuestions.java:353)
+	at ccpd.es.p8panels.PFillingReportQuestions$9.actionPerformed(PFillingReportQuestions.java:223)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+may 14, 2025 9:59:56 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+may 14, 2025 9:59:57 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+may 14, 2025 10:14:06 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Usuario o clave incorrectas, inténtelo de nuevo
+may 14, 2025 12:06:04 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+may 14, 2025 12:06:05 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+may 14, 2025 12:06:05 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+may 14, 2025 12:06:26 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: No value specified for parameter 1389. Estado 07001
+may 14, 2025 12:09:10 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+may 14, 2025 12:09:11 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+may 14, 2025 12:09:12 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+may 14, 2025 12:09:32 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: No value specified for parameter 1396. Estado 07001
+may 14, 2025 12:12:24 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+may 14, 2025 12:12:25 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+may 14, 2025 12:12:28 P. M. beleris.es.finalinformationmanager.MainErrorManager AcceptInformation
+INFO: ¿Está seguro de que quiere salir del programa?
+may 14, 2025 12:16:27 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDInfo
+INFO: Usuario autenticado
+may 14, 2025 12:16:28 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar un cliente para poder continuar ...
+may 14, 2025 12:16:29 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING: Debe seleccionar una empresa para poder continuar ...
+may 14, 2025 12:16:46 P. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: No value specified for parameter 466. Estado 07001
+may 14, 2025 12:19:06 P. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al insertar datos en la base de datos desde el panel:answers.No value specified for parameter 466
+may 14, 2025 12:19:06 P. M. org.netbeans.core.startup.TopLogging$AWTHandler uncaughtException
+SEVERE: null
+java.lang.NullPointerException: Cannot invoke "java.sql.SQLException.getErrorCode()" because "ex" is null
+	at beleris.es.finaldbmanager.FDBMan.ShowSQLExceptionError(FDBMan.java:2464)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_CloseConn(FDBMan.java:1558)
+	at beleris.es.finaldbmanager.FDBMan.MySQL_InsertDatainDB(FDBMan.java:1181)
+	at beleris.es.finaldbmanager.FDBMan.InsertDatainDB(FDBMan.java:780)
+	at ccpd.es.p8panels.PFillingReportQuestions.UpdateTableDB(PFillingReportQuestions.java:738)
+	at ccpd.es.p8panels.PFillingReportQuestions.SaveDBResponse(PFillingReportQuestions.java:743)
+	at ccpd.es.p8panels.PFillingReportQuestions.jBExitProgramActionPerformed(PFillingReportQuestions.java:353)
+	at ccpd.es.p8panels.PFillingReportQuestions$9.actionPerformed(PFillingReportQuestions.java:223)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+

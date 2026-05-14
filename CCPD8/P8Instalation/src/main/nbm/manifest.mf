@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: ccpd/es/p8instalation/Installer.class
+OpenIDE-Module-Localizing-Bundle: ccpd/es/p8instalation/Bundle.properties
+

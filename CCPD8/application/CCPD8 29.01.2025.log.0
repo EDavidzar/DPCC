@@ -1,0 +1,16 @@
+ene 29, 2025 9:22:20 A. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.. Estado 08S01
+ene 29, 2025 9:22:23 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al configurar la la conexión de MySQL:.Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+ene 29, 2025 9:22:25 A. M. beleris.es.finaldbmanager.FDBMan ShowSQLExceptionError
+SEVERE: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.. Estado 08S01
+ene 29, 2025 9:22:27 A. M. beleris.es.finalinformationmanager.MainErrorManager ShowDError
+WARNING:  Error al configurar la la conexión de MySQL:.Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
